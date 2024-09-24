@@ -73,6 +73,7 @@ calculator.addEventListener('click', (event) => {
     secondNumber = null
     operation = null
     result = 0
+    displayResultElement.textContent = result
   }
 })
 
